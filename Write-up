@@ -1,0 +1,35 @@
+Title: Dimensionality Reduction Methods on High Dimensional Dataset
+
+Problem Statement:
+To choose a high-dimensional data set like Boston housing data or breast cancer data from any available data library like SK-Learn, UCI library, or Kaggle data set library. Apply the dimensionality reduction processes like SelectKBest, SelectPercentile, and PCA to the chosen data set and compare the ability of each process in reducing the data dimensions without losing the main information in the data.
+
+Hardware Requirements:
+Processor: Intel Core i3 or higher
+RAM: 4GB or higher
+Hard Disk: 10GB free space
+Operating System: Windows, Linux, or macOS
+
+Software Requirements:
+Python 3.x
+Jupyter Notebook or Google Colab
+
+Libraries: scikit-learn, pandas, numpy, matplotlib, seaborn
+
+Theory:
+Dimensionality reduction is a key data preprocessing step that reduces the input variables in a dataset to a minimum. It enhances model performance, reduces computational cost, and eliminates features that are not relevant.
+
+SelectKBest Method:
+SelectKBest selects the top k features that score best according to a given test statistic. It is a univariate feature selection strategy.
+Common scoring functions include chi-square, mutual information, and f_classif.
+
+SelectPercentile Method:
+SelectPercentile selects features by their percentile rank according to a specified statistical test.
+It keeps a fixed percentage of the best features instead of a fixed number of features.
+
+Principal Component Analysis (PCA):
+PCA is an unsupervised learning algorithm that does dimensionality reduction by transforming the original features into a new set of linearly uncorrelated features known as principal components.
+It maximizes the variance of the data and reduces information loss.
+
+Conclusion:
+
+Dimensionality reduction techniques like SelectKBest, SelectPercentile, and PCA are employed to reduce the number of features in high-dimensional data sets. SelectKBest and SelectPercentile are simple and effective supervised learning techniques, while PCA provides an effective unsupervised learning technique. The technique is chosen depending on the data set and the nature of analysis, balancing cost of computation and information preservation.
